@@ -1,0 +1,1 @@
+# SQL-kapcsolatok_tablak_kozt
