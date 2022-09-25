@@ -15,7 +15,7 @@ CREATE TABLE orders (
       customer_id INT,
       PRIMARY KEY (order_id),
       FOREIGN KEY (customer_id) REFERENCES customers (customer_id)  -- az idegen kulkcsal kapcsoljuk össze a 2 táblát 
-);
+);                                                                      -- Összekapcsolt táblák adatait nem lehet se DROP-olni se DELETE-elni
 
 INSERT INTO customers (customer_id, name) VALUES (1, 'Kis Peter');
 INSERT INTO customers (customer_id, name) VALUES (2, 'Nagy Anita');
